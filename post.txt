@@ -1,0 +1,19 @@
+var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text=I%20am%20Aman%20Kumar"
+undefined
+fetch(url)
+.then(response => response.json())
+.then(json => console.log(json))
+Promise {<pending>}[[Prototype]]: Promisecatch: ƒ catch()constructor: ƒ Promise()finally: ƒ finally()then: ƒ then()Symbol(Symbol.toStringTag): "Promise"[[Prototype]]: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()__proto__: (...)get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()[[PromiseState]]: "fulfilled"[[PromiseResult]]: undefined
+VM1310:3 {success: {…}, contents: {…}}contents: text: "I am Aman Kumar"translated: "Testing,  you are"translation: "yoda"[[Prototype]]: Objectsuccess: total: 1[[Prototype]]: Object[[Prototype]]: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()__proto__: (...)get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()
+fetch(url)
+.then(function responseHandler(response) {return response.json()})
+.then(function logJSON(json) {console.log(json)})
+Promise {<pending>}
+VM1710:3 {success: {…}, contents: {…}}contents: text: "I am Aman Kumar"translated: "Testing,  you are"translation: "yoda"[[Prototype]]: Objectsuccess: total: 1[[Prototype]]: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()__proto__: (...)get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()[[Prototype]]: Object
+var url2 = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text=I am Iron Man"
+undefined
+fetch(url2)
+.then(response => response.json())
+.then(json => console.log(json))
+Promise {<pending>}
+VM1893:3 
