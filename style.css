@@ -52,8 +52,8 @@ textarea {
   footer {
     position: fixed;
     bottom: 0;
-    width: 98%;
-    padding: 1rem;
+    width: 100vw;
+    padding: 1rem 0;
     background-color: var(--primary);
     text-align: center;
 }
